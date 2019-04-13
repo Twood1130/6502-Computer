@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name 32x8_generic_sram)(type Legacy)(uri C:/Users/Tristan/Documents/PCB/32x8_generic_sram.lib)(options "")(descr ""))
+)

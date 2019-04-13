@@ -1,0 +1,166 @@
+EESchema Schematic File Version 4
+EELAYER 29 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L CPU:MOS_6502 U1
+U 1 1 5CA76C06
+P 3950 2450
+F 0 "U1" H 3975 3875 50  0000 C CNN
+F 1 "MOS_6502" H 3975 3784 50  0000 C CNN
+F 2 "Package_DIP:DIP-40_W15.24mm_Socket" H 3750 3750 50  0001 C CNN
+F 3 "" H 3750 3750 50  0001 C CNN
+	1    3950 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDD #PWR0101
+U 1 1 5CA7EB50
+P 1600 2200
+F 0 "#PWR0101" H 1600 1950 50  0001 C CNN
+F 1 "GNDD" H 1604 2045 50  0000 C CNN
+F 2 "" H 1600 2200 50  0001 C CNN
+F 3 "" H 1600 2200 50  0001 C CNN
+	1    1600 2200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3600 1950 3300 1950
+Wire Wire Line
+	1600 1950 1600 2200
+Wire Wire Line
+	3600 1850 3300 1850
+Wire Wire Line
+	3300 1850 3300 1950
+Connection ~ 3300 1950
+Wire Wire Line
+	3300 1950 1600 1950
+$Comp
+L Memory_RAM:32x8_Generic_SRAM U2
+U 1 1 5CA8ED4F
+P 9400 2100
+F 0 "U2" H 7200 3175 50  0000 C CNN
+F 1 "32x8_Generic_SRAM" H 7200 3084 50  0000 C CNN
+F 2 "" H 7150 3200 50  0001 C CNN
+F 3 "" H 7150 3200 50  0001 C CNN
+	1    9400 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4350 3550 6800 3550
+Wire Wire Line
+	6800 3550 6800 3400
+Wire Wire Line
+	6800 3400 6900 3400
+Wire Wire Line
+	4350 3450 6750 3450
+Wire Wire Line
+	6750 3450 6750 3300
+Wire Wire Line
+	6750 3300 6900 3300
+Wire Wire Line
+	4350 3350 6700 3350
+Wire Wire Line
+	6700 3350 6700 3200
+Wire Wire Line
+	6700 3200 6900 3200
+Wire Wire Line
+	4350 3250 6650 3250
+Wire Wire Line
+	6650 3250 6650 3100
+Wire Wire Line
+	6650 3100 6900 3100
+Wire Wire Line
+	4350 3150 6600 3150
+Wire Wire Line
+	6600 3150 6600 3000
+Wire Wire Line
+	6600 3000 6900 3000
+Wire Wire Line
+	4350 3050 6550 3050
+Wire Wire Line
+	6550 3050 6550 2900
+Wire Wire Line
+	6550 2900 6900 2900
+Wire Wire Line
+	4350 2950 6500 2950
+Wire Wire Line
+	6500 2950 6500 2800
+Wire Wire Line
+	6500 2800 6900 2800
+Wire Wire Line
+	4350 2850 6450 2850
+Wire Wire Line
+	6450 2850 6450 2700
+Wire Wire Line
+	6450 2700 6900 2700
+Wire Wire Line
+	4350 2750 6400 2750
+Wire Wire Line
+	6400 2750 6400 2600
+Wire Wire Line
+	6400 2600 6900 2600
+Wire Wire Line
+	4350 2650 6350 2650
+Wire Wire Line
+	6350 2650 6350 2500
+Wire Wire Line
+	6350 2500 6900 2500
+Wire Wire Line
+	4350 2550 6300 2550
+Wire Wire Line
+	6300 2550 6300 2400
+Wire Wire Line
+	6300 2400 6900 2400
+Wire Wire Line
+	4350 2450 6250 2450
+Wire Wire Line
+	6250 2450 6250 2300
+Wire Wire Line
+	6250 2300 6900 2300
+Wire Wire Line
+	4350 2350 6200 2350
+Wire Wire Line
+	6200 2350 6200 2200
+Wire Wire Line
+	6200 2200 6900 2200
+Wire Wire Line
+	4350 2250 6150 2250
+Wire Wire Line
+	6150 2250 6150 2100
+Wire Wire Line
+	6150 2100 6900 2100
+Wire Wire Line
+	4350 1950 6900 1950
+Wire Wire Line
+	4350 1850 6900 1850
+Wire Wire Line
+	4350 1750 6900 1750
+Wire Wire Line
+	4350 1650 6900 1650
+Wire Wire Line
+	4350 1550 6900 1550
+Wire Wire Line
+	4350 1450 6900 1450
+Wire Wire Line
+	4350 1350 6900 1350
+Wire Wire Line
+	4350 1250 6900 1250
+Wire Wire Line
+	4350 3650 6850 3650
+Wire Wire Line
+	6850 3650 6850 3500
+Wire Wire Line
+	6850 3500 6900 3500
+$EndSCHEMATC
